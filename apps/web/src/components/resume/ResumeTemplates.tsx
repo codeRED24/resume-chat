@@ -1,8 +1,6 @@
 import type { ResumeType } from "@/app/schemas/ResumeSchema";
 
 export const ModernTemplate = ({ data }: { data: ResumeType }) => {
-  console.log({ data });
-
   return (
     <div
       className="resume-paper relative max-w-[210mm] min-h-[297mm] mx-auto bg-white text-black p-12 shadow-lg"

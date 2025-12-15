@@ -21,7 +21,6 @@ const ResumePreview = forwardRef<HTMLDivElement>((props, ref) => {
       </div>
     );
   }
-  console.log({ resumeData });
 
   return (
     <div ref={ref}>

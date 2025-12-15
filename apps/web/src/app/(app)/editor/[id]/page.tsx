@@ -56,8 +56,6 @@ export default function EditorPage({
     );
   }
 
-  console.log({ resumeData });
-
   return (
     <div className="h-full overflow-hidden flex flex-col">
       <div className="h-14 border-b border-zinc-800 flex items-center px-4 justify-between bg-background z-10">
